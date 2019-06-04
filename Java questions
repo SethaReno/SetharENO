@@ -1,0 +1,8 @@
+Variable scope outlines which vriables will be accessed within a funtion and outside a functions parameters. Global scope is availabe in all
+sets of code and all its variabls are defined outside of a function. Block scope is only available within its block function's intructions. 
+Global variables should be avoided becasue they can be interchangeable and can produce mixed results due to incorrect values being placed in 
+the wrong parameters. Java Script's 'strict mode' should be implemented at the top of every Java code page to ensure let or const are always 
+perscribed to the designated variable's decleration. 
+Side effects are funtions altering variabls outside of its own block and in the global scope. When dealing with uncontrolable side-effects 
+and functions that manipulate global variables will be an almost certain recipe for inderminate code. Detriment code deals with pure function 
+becasue it provides accurate values given accurate input. Pure function is just side-effect free detrimental code. 
