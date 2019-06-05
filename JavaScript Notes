@@ -1,0 +1,19 @@
+Line 6 creates a new function called mostFrequentWord and accepts the parameters (text) as an argument.
+Line 7 creates a variable called words that accepts (text) from the output of getTokens. 
+Line 8 produces an empty array called wordFrequencies.
+Line 9 creates a for loop that sums up the words assosiated with getTokens. 
+Linie 10 creates an if statement that says if there are words to add in wordFrequencies there will be a command.
+Line 11 adds the words into wordFrequencies.
+Line 12 has an else statement to do something else if there are no words to count. 
+Line 13 gives the command to assighn 1 to the variable word if there is nothing else to count.
+Line 14 and 15 close the for and if statements. 
+Line 16 creates a variable currentMaxKey and assighns the Object.key method to it while accepting the paramenters 
+of wordFrequencies and initializing it to zero.
+Line 17 creates a array currentMaxCount is euqal to the value of wordFrequancies with its parameters made up of currentMaxKey.
+Line 19 creates a for loop that finds the words in wordFrequencies. 
+Line 20 creates an if statement that says if the word in wordFrequencies is greater tahn currentMaxCount do something. 
+Line 21 adds the current word to currentMaxKey. 
+Line 22 adds the word from word from wordFrequencies to currentMaxCount. 
+Line 23 and 24 end the for and if loops. 
+Line 25 returns the currentMaxKey to the main. 
+A closing breaket closes the program on line 26
